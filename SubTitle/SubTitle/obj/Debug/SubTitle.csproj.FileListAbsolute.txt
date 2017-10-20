@@ -1,0 +1,14 @@
+c:\users\pierre\documents\visual studio 2017\Projects\SubTitle\SubTitle\obj\Debug\SubTitle.csprojResolveAssemblyReference.cache
+c:\users\pierre\documents\visual studio 2017\Projects\SubTitle\SubTitle\obj\Debug\MainWindow.g.cs
+c:\users\pierre\documents\visual studio 2017\Projects\SubTitle\SubTitle\obj\Debug\App.g.cs
+c:\users\pierre\documents\visual studio 2017\Projects\SubTitle\SubTitle\obj\Debug\SubTitle_MarkupCompile.cache
+c:\users\pierre\documents\visual studio 2017\Projects\SubTitle\SubTitle\obj\Debug\SubTitle_MarkupCompile.lref
+c:\users\pierre\documents\visual studio 2017\Projects\SubTitle\SubTitle\bin\Debug\SubTitle.exe.config
+c:\users\pierre\documents\visual studio 2017\Projects\SubTitle\SubTitle\bin\Debug\SubTitle.exe
+c:\users\pierre\documents\visual studio 2017\Projects\SubTitle\SubTitle\bin\Debug\SubTitle.pdb
+c:\users\pierre\documents\visual studio 2017\Projects\SubTitle\SubTitle\obj\Debug\MainWindow.baml
+c:\users\pierre\documents\visual studio 2017\Projects\SubTitle\SubTitle\obj\Debug\SubTitle.g.resources
+c:\users\pierre\documents\visual studio 2017\Projects\SubTitle\SubTitle\obj\Debug\SubTitle.Properties.Resources.resources
+c:\users\pierre\documents\visual studio 2017\Projects\SubTitle\SubTitle\obj\Debug\SubTitle.csproj.GenerateResource.Cache
+c:\users\pierre\documents\visual studio 2017\Projects\SubTitle\SubTitle\obj\Debug\SubTitle.exe
+c:\users\pierre\documents\visual studio 2017\Projects\SubTitle\SubTitle\obj\Debug\SubTitle.pdb

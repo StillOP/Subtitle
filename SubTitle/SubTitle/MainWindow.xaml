@@ -1,0 +1,31 @@
+﻿<Window x:Class="SubTitle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SubTitle"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" SizeToContent="WidthAndHeight" MinHeight="350" MinWidth="525">
+    <Window.CommandBindings>
+        <CommandBinding Command="MediaCommands.Play" CanExecute="Play_CanExecute" Executed="Play_Executed" />
+    </Window.CommandBindings>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Menu  Name="menu" VerticalAlignment="Top">
+            <MenuItem Header="Open">
+                <MenuItem Name="openVideo" Header="Video" Click="openVideo_Click" />
+                <MenuItem Name ="openSubtitle" Header="Subtitle" Click="openSubtitle_Click" />
+            </MenuItem>
+        </Menu>
+        <Button Name="play" Command="MediaCommands.Play" Height="15" Width="50" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="8">
+            Play
+        </Button>
+        <MediaElement Grid.Row="1" Name="Player" LoadedBehavior="Manual" Stretch="None" />
+        <TextBlock Grid.Row="2" Height="60" VerticalAlignment="Bottom" Name="subtitles" FontSize="12" TextAlignment="Center" Background="Silver" Foreground="White" TextWrapping="Wrap"/>
+    </Grid>
+</Window>
